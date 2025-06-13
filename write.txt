@@ -1,0 +1,29 @@
+routing in express js
+
+app.METHOD(PATH,HANDLER)
+
+
+a route in express js 
+
+* METHOD -> get,post,delete,put
+* PATH -> eg - url= /user 
+* HANDLER -> this handles the route 
+
+
+
+DYNAMIC ROUTE 
+
+(1) used to capture dynamic values from the url
+(2) defined using  :parameter_name
+
+example = http://localhost:3000/user/john
+
+QUERY STRING 
+
+(1) used to pass optinal data in the url after ?.
+(2) extracted using req.query
+
+ex- http://localhost:3000/search?keyword=expressjs
+
+
+
